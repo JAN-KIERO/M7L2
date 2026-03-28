@@ -40,5 +40,6 @@ $check
 - Pobierze załączone zdjęcie.
 - Przetworzy je przez model sieci neuronowej.
 - Odeśle wiadomość z nazwą rozpoznanej kategorii (np. Mak, stokrotka, tulipan).
+```
 
 ![Alt Text](BOT.png)
