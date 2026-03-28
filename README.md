@@ -1,5 +1,3 @@
-![Alt Text](BOT.png)
-
 🤖 Discord Image Classifier Bot
 Prosty bot do Discorda napisany w Pythonie, który wykorzystuje model uczenia maszynowego (Keras) do rozpoznawania zawartości obrazów przesyłanych przez użytkowników.
 
@@ -17,4 +15,6 @@ Zanim uruchomisz bota, upewnij się, że masz zainstalowane następujące biblio
 
 - requests
 
-- tensorflow 
+- tensorflow
+
+![Alt Text](BOT.png)
