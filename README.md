@@ -3,7 +3,7 @@ Prosty bot do Discorda napisany w Pythonie, który wykorzystuje model uczenia ma
 
 📋 Funkcje
 - Klasyfikacja obrazów: Komenda $check analizuje załączone zdjęcie i zwraca wynik predykcji.
-- 
+
 - Obsługa załączników: Automatyczne pobieranie i przetwarzanie plików graficznych bezpośrednio z czatu.
 
 🛠️ Wymagania
