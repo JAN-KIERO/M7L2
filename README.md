@@ -10,10 +10,10 @@ Inteligentny bot na platformę Discord, który potrafi "widzieć"! Wykorzystuje 
 **🛠️ Technologie i Biblioteki**
 Projekt został zbudowany przy użyciu:
 - Python: 3.11
-- discord.py==2.6.3
-- tf-keras==2.21.0
-- Pillow==12.1.1
-- numpy==2.4.3
+- discord.py: 2.6.3
+- tf-keras: 2.21.0
+- Pillow: 12.1.1
+- numpy: 2.4.3
 
 **📂 Struktura Projektu**
 - main.py – Serce bota, obsługuje komendy i komunikację z Discordem.
