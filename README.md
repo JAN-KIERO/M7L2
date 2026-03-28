@@ -1,4 +1,4 @@
-**🤖 AI Image Classifier Discord Bot**
+**🤖 AI Image Classifier Discord Bot**:
 https://discord.com/oauth2/authorize?client_id=1421409966090354728
 
 Inteligentny bot na platformę Discord, który potrafi "widzieć"! Wykorzystuje on model uczenia maszynowego (Deep Learning) stworzony w Keras/TensorFlow, aby rozpoznawać zawartość obrazów przesyłanych przez użytkowników.
