@@ -24,8 +24,8 @@ Projekt został zbudowany przy użyciu:
 
 **🎮 Jak korzystać z bota?**
 Korzystanie z bota jest proste i intuicyjne. Postępuj zgodnie z poniższymi krokami:
-
-```1. Przygotowanie obrazu
+```
+1. Przygotowanie obrazu
 - Upewnij się, że masz przygotowane zdjęcie, które chcesz sklasyfikować (np. w formacie .jpg lub .png).
 
 2. Wywołanie klasyfikacji
