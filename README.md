@@ -1,20 +1,44 @@
-🤖 Discord Image Classifier Bot
-Prosty bot do Discorda napisany w Pythonie, który wykorzystuje model uczenia maszynowego (Keras) do rozpoznawania zawartości obrazów przesyłanych przez użytkowników.
+**🤖 AI Image Classifier Discord Bot**
+Inteligentny bot na platformę Discord, który potrafi "widzieć"! Wykorzystuje on model uczenia maszynowego (Deep Learning) stworzony w Keras/TensorFlow, aby rozpoznawać zawartość obrazów przesyłanych przez użytkowników.
 
-📋 Funkcje
-- Klasyfikacja obrazów: Komenda $check analizuje załączone zdjęcie i zwraca wynik predykcji.
+**🌟 Główne Funkcje:**
+- Klasyfikacja obrazów w czasie rzeczywistym: Po wysłaniu obrazka z komendą $check, bot analizuje go i zwraca nazwę rozpoznanego obiektu.
+- Przyjazny interfejs: Proste komendy tekstowe do interakcji z botem.
 
-- Obsługa załączników: Automatyczne pobieranie i przetwarzanie plików graficznych bezpośrednio z czatu.
+**🛠️ Technologie i Biblioteki**
+Projekt został zbudowany przy użyciu:
+- Python: 3.11
+- discord.py==2.6.3
+- tf-keras==2.21.0
+- Pillow==12.1.1
+- numpy==2.4.3
 
-🛠️ Wymagania
-Zanim uruchomisz bota, upewnij się, że masz zainstalowane następujące biblioteki:
+**📂 Struktura Projektu**
+- main.py – Serce bota, obsługuje komendy i komunikację z Discordem.
 
-- discord.py
+- model.py – Moduł logiczny, w którym odbywa się magia AI i analiza zdjęcia.
 
-- Pillow (PIL)
+- keras_model.h5 – Wytrenowany model (binarny).
 
-- requests
+- labels.txt – Lista kategorii, które model potrafi rozpoznać.
 
-- tensorflow
+**🎮 Jak korzystać z bota?**
+Korzystanie z bota jest proste i intuicyjne. Postępuj zgodnie z poniższymi krokami:
+
+1. Przygotowanie obrazu
+- Upewnij się, że masz przygotowane zdjęcie, które chcesz sklasyfikować (np. w formacie .jpg lub .png).
+
+2. Wywołanie klasyfikacji
+- Aby bot przeanalizował Twój obraz:
+- Przeciągnij i upuść zdjęcie do okna czatu na Discordzie (tam, gdzie jest bot).
+- W opisie zdjęcia (podpisie) wpisz komendę:
+$check
+- Wyślij wiadomość.
+
+3. Wynik analizy
+- Bot automatycznie:
+- Pobierze załączone zdjęcie.
+- Przetworzy je przez model sieci neuronowej.
+- Odeśle wiadomość z nazwą rozpoznanej kategorii (np. Mak, stokrotka, tulipan).
 
 ![Alt Text](BOT.png)
